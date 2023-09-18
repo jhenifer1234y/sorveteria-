@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>Sorveteria</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <label>
+        Como você gostaria de ser chamado?
+        
+        <input id="nome" placeholder="Nome" type="text" />
+      </label>
+      <label>
+        Produtos você gostaria?
+       
+        <input id="quantidade" placeholder="Minimo 1" type="number" min="1" />
+      </label>
+
+      <label class="label" for="Sabor de Sorvete">Escolha um sabor:</label>
+      <select id="sabores">
+        <option>Selecione</option>
+        <option value="chocolate">Chocolate</option>
+        <option value="Baunilha">Baunilha</option>
+        <option value="Flocos">Flocos</option>
+        <option value="morango">Morango</option>
+        <option value="Napolitano">Napolitano</option>
+        <option value="Milho">Milho</option>
+        <option value="Maracujá">Maracujá</option>
+        <option value="Uva">Uva</option>
+        <option value="Limão">Limão</option>
+        <option value="Trufado">Truado</option>
+      </select>
+
+      <button id="botao">Fazer Pedido</button>
+
+      <hr>
+
+      <p id="pedidoNome"></p>
+      <p id="pedidoQuantia"></p>
+      <p id="pedidoSabor"></p>
+
+
+  <script src="script.js"></script>
+
+    </body>
+  </html>
